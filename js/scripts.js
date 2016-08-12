@@ -5,6 +5,7 @@ $(document).ready(function(){
     var php = 0;
     var jav = 0;
     var result = "";
+    var userName = $("input#user").val();
 
     if ($("input:radio[name=q1]:checked").val() === "php"){
       php += 1;
@@ -63,7 +64,8 @@ $(document).ready(function(){
     } else {
       $("#output").text("Youre Results were tied. We can't help you. Sorry!");
     }
-    //alert("Ruby: " + ruby + " pHp: " + php + " Java: " + jav);
+
+    $(".name").text(userName);
     $("#output").show();
 
   });
