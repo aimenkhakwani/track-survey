@@ -2,7 +2,6 @@ body{
   text-align: center;
   font-family: 'Inconsolata', monospace;
 }
-
 #output {
   display:none;
 }
@@ -13,6 +12,10 @@ h1 {
 h3 {
   color: #a22a2a;
 }
+button{
+  margin-top: 3rem;
+}
+/*Radio buttons font size and colors*/
 label {
   font-size: 1.2em;
 }
