@@ -59,3 +59,6 @@ input[type=radio] {
 .radio input[type=radio]{
   margin-left: -25px;
 }
+.name{
+  text-transform:capitalize;
+}

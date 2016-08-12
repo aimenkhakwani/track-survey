@@ -62,8 +62,9 @@ $(document).ready(function(){
     } else if ((php > ruby) && (php > jav)){
       $(".pursue").text("pHp");
     } else {
-      $("#output").text("Youre results were inconclusive. We can't help you. Sorry!");
+      $("#output").text("Your results were inconclusive. We can't help you. Sorry!");
     }
+
 
     $(".name").text(userName);
     $("#output").show();
