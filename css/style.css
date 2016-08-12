@@ -1,7 +1,8 @@
 body{
   text-align: center;
   font-family: 'Inconsolata', monospace;
-  background-image: url("../img/code.jpg");
+  background-image: url("../img/code2.jpg");
+  background-size: cover;
 }
 .container {
   border: 1px solid #568e8f;
@@ -9,7 +10,7 @@ body{
   margin-top: 2rem;
   border-radius: 10px;
   background-color: #fff;
-  opacity: .94;
+  opacity: .9;
 }
 .row {
   padding: 1rem;
@@ -17,6 +18,7 @@ body{
 #output, #phplogo, #javalogo, #rubylogo{
   display:none;
 }
+/*styling the submit button*/
 .btn-success {
   background-color: #568e8f;
   border-color: #568e8f;
@@ -25,6 +27,10 @@ body{
   background-color: #80b2b3;
   border-color: #80b2b3;
 }
+button{
+  margin-top: 3rem;
+}
+/*headings style*/
 h1 {
   color: #0d0d0d;
 }
@@ -36,12 +42,10 @@ h2{
 h3 {
   color: #a22a2a;
 }
-button{
-  margin-top: 3rem;
-}
-/*Radio buttons font size and colors*/
+/*Radio buttons font size, padding, and colors*/
 label {
   font-size: 1.3em;
+  padding: 5px;
 }
 label.blue{
   color:#1f49c7;
@@ -62,6 +66,7 @@ input[type=radio] {
 .radio input[type=radio]{
   margin-left: -25px;
 }
+/*Capitalizing user names*/
 .name{
   text-transform:capitalize;
 }
