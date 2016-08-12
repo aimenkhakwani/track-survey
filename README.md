@@ -1,6 +1,6 @@
 # _Epicodus Track Survey_
 
-#### _A survey that uses jQuery to ask users questions to help them make a decision_
+#### _A survey that uses jQuery to ask users questions to help them make a decision. to view the webpage go to https://aimenkhakwani.github.io/track-survey_
 
 #### By _**Aimen Khakwani**_
 
