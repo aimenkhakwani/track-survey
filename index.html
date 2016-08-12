@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Track Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Programming Language Should YOU Pursue?</h1>
+      <form>
+        <div class="row">
+          <!-- <div class="col-sm-12"> -->
+            <h3>Are you more interested in working on a website or an app?</h3>
+            <div class="radio">
+              <label class="blue">
+                <input class="form-control" type="radio" name="q1" value="web">
+                Web Development
+              </label>
+            </div>
+            <div class="radio">
+              <label class="green">
+                <input class="form-control" type="radio" name="q1" value="app">
+                App Development
+              </label>
+            </div>
+            <div class="radio">
+              <label class="purple">
+                <input class="form-control" type="radio" name="q1" value="unsure">
+                Not sure...both?
+              </label>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <!-- <div class="col-sm-12"> -->
+            <h3>You have to write an essay for school. What format would you follow?</h3>
+            <div class="radio">
+              <label class="green">
+                <input class="form-control" type="radio" name="q4" value="proper">
+                I woud follow the guidlines and use proper formatting.
+              </label>
+            </div>
+            <div class="radio">
+              <label class="blue">
+                <input class="form-control" type="radio" name="q4" value="evolve">
+                I would just start...it will evolve into something great!
+              </label>
+            </div>
+            <div class="radio">
+              <label class="purple">
+                <input class="form-control" type="radio" name="q4" value="layout">
+                I would start with an outline and built upon it.
+              </label>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <!-- <div class="col-sm-12"> -->
+            <h3>How do you feel about WordPress?</h3>
+            <div class="radio">
+              <label class="purple">
+                <input class="form-control" type="radio" name="q3" value="yesWordpress">
+                I love WordPress!
+              </label>
+            </div>
+            <div class="radio">
+              <label class="green">
+                <input class="form-control" type="radio" name="q3" value="noWordpress">
+                Hate it
+              </label>
+            </div>
+            <div class="radio">
+              <label class="blue">
+                <input class="form-control" type="radio" name="q3" value="neverWordpress">
+                Never used it
+              </label>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <!-- <div class="col-sm-12"> -->
+            <h3>Which company would you prefer to work at?</h3>
+            <div class="radio">
+              <label class="blue">
+                <input class="form-control" type="radio" name="q2" value="intel">
+                Intel
+              </label>
+            </div>
+            <div class="radio">
+              <label class="purple">
+                <input class="form-control" type="radio" name="q2" value="nike">
+                Nike
+              </label>
+            </div>
+            <div class="radio">
+              <label class="green">
+                <input class="form-control" type="radio" name="q2" value="livingSocial">
+                LivingSocial
+              </label>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <!-- <div class="col-sm-12"> -->
+            <h3>What do you love about coding?</h3>
+            <div class="radio">
+              <label class="green">
+                <input class="form-control" type="radio" name="q5" value="results">
+                Getting awesome results!
+              </label>
+            </div>
+            <div class="radio">
+              <label class="blue">
+                <input class="form-control" type="radio" name="q5" value="problem">
+                Working on a problem until it is resolved
+              </label>
+            </div>
+            <div class="radio">
+              <label class="purple">
+                <input class="form-control" type="radio" name="q5" value="learning">
+                Learning something new everyday
+              </label>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <!-- <div class="col-sm-12"> -->
+            <h3>Where would you go for coffee?</h3>
+            <div class="radio">
+              <label class="purple">
+                <input class="form-control" type="radio" name="q6" value="starbucks">
+                Starbucks...predictable and efficient
+              </label>
+            </div>
+            <div class="radio">
+              <label class="green">
+                <input class="form-control" type="radio" name="q6" value="dutchbros">
+                Dutch bros...so good!
+              </label>
+            </div>
+            <div class="radio">
+              <label class="blue">
+                <input class="form-control" type="radio" name="q6" value="symposium">
+                Symposium...local and delicious!
+              </label>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-5">
+            <button type="submit" class="btn btn-success btn-lg">Get Your Results!</button>
+          </div>
+        </div>
+      </form>
+      <div id="output">
+        <h2>You should pursue <span class="language"></span></h2>
+      </div>
+    </div>
+  </body>
+</html>

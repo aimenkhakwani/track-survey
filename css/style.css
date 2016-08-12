@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+#output {
+  display:none;
+}
+h1 {
+  margin: 4rem;
+  color: #0d0d0d;
+}
+h3 {
+  color: #a22a2a;
+}
+label {
+  font-size: 1.2em;
+}
+label.blue{
+  color:#1f49c7;
+}
+label.green{
+  color: #33995d;
+}
+label.purple{
+  color:#9932cc;
+}
+/*Fixing radio button position and border line*/
+.form-control {
+  -webkit-box-shadow: none;
+}
+input[type=radio] {
+    margin: -6px 0 0;
+  }
+.radio input[type=radio]{
+  margin-left: -25px;
+}
