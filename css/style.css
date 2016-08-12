@@ -1,13 +1,34 @@
 body{
   text-align: center;
   font-family: 'Inconsolata', monospace;
+  background-image: url("../img/software.jpg");
+}
+.container {
+  border: 1px solid #568e8f;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: .9;
 }
 #output {
   display:none;
 }
+.btn-success {
+  background-color: #568e8f;
+  border-color: #568e8f;
+}
+.btn-success:hover {
+  background-color: #80b2b3;
+  border-color: #80b2b3;
+}
 h1 {
-  margin: 4rem;
   color: #0d0d0d;
+}
+h2{
+  margin-bottom: 5rem;
+  font-size: 2em;
+  color: #568e8f;
 }
 h3 {
   color: #a22a2a;
