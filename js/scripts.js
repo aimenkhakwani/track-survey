@@ -65,7 +65,6 @@ $(document).ready(function(){
       $("#output").text("Your results were inconclusive. We can't help you. Sorry!");
     }
 
-
     $(".name").text(userName);
     $("#output").show();
 
