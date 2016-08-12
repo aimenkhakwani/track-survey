@@ -20,7 +20,7 @@ $(document).ready(function(){
     } else if ($("input:radio[name=q2]:checked").val() === "ruby"){
       ruby += 1;
     } else if ($("input:radio[name=q2]:checked").val() === "jav"){
-      jav+= 1;
+      jav += 1;
     }
 
     if ($("input:radio[name=q3]:checked").val() === "php"){
@@ -28,7 +28,7 @@ $(document).ready(function(){
     } else if ($("input:radio[name=q3]:checked").val() === "ruby"){
       ruby += 1;
     } else if ($("input:radio[name=q3]:checked").val() === "jav"){
-      jav+= 1;
+      jav += 1;
     }
 
     if ($("input:radio[name=q4]:checked").val() === "php"){
@@ -36,7 +36,7 @@ $(document).ready(function(){
     } else if ($("input:radio[name=q4]:checked").val() === "ruby"){
       ruby += 1;
     } else if ($("input:radio[name=q4]:checked").val() === "jav"){
-      jav+= 1;
+      jav += 1;
     }
 
     if ($("input:radio[name=q5]:checked").val() === "php"){
@@ -44,7 +44,7 @@ $(document).ready(function(){
     } else if ($("input:radio[name=q5]:checked").val() === "ruby"){
       ruby += 1;
     } else if ($("input:radio[name=q5]:checked").val() === "jav"){
-      jav+= 1;
+      jav += 1;
     }
 
     if ($("input:radio[name=q6]:checked").val() === "php"){
@@ -52,7 +52,7 @@ $(document).ready(function(){
     } else if ($("input:radio[name=q6]:checked").val() === "ruby"){
       ruby += 1;
     } else if ($("input:radio[name=q6]:checked").val() === "jav"){
-      jav+= 1;
+      jav += 1;
     }
 
     if ((ruby > jav) && (ruby > php)){
@@ -61,6 +61,12 @@ $(document).ready(function(){
       $(".pursue").text("Java");
     } else if ((php > ruby) && (php > jav)){
       $(".pursue").text("pHp");
+    } else if ((ruby === jav)){
+      $(".pursue").text("Ruby & Java. Your results were tied");
+    } else if ((ruby === php)){
+      $(".pursue").text("Ruby & pHp. Your results were tied");
+    } else if ((jav === php)){
+      $(".pursue").text("Java & pHp. Your results were tied");
     } else {
       $("#output").text("Your results were inconclusive. We can't help you. Sorry!");
     }
