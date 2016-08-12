@@ -88,11 +88,11 @@ $(document).ready(function(){
     } else {
       $("#output").text("Your results were inconclusive. We can't help you. Sorry!");
     }
-
+    //Error message for empty text field
+    if($("input#user").val() === "") {
+      alert("Please enter your name.")
+    }
     $(".name").text(userName);
     $("#output").show();
-
   });
-
-
 });
