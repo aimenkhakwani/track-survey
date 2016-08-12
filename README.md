@@ -17,5 +17,6 @@ _A survey that helps users determine which programming track they are best suite
 _Bootstrap, HTML, CSS, jQuery and JavaScript_
 
 ### License
+This software is licensed uncer MIT
 
 Copyright (c) 2016 **_Aimen Khakwani_**
