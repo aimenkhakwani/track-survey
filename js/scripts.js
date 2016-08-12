@@ -56,17 +56,35 @@ $(document).ready(function(){
     }
 
     if ((ruby > jav) && (ruby > php)){
+      $("#phplogo").hide();
+      $("#javalogo").hide();
       $(".pursue").text("Ruby");
+      $("#rubylogo").show();
     } else if ((jav > ruby) && (jav > php)){
+      $("#phplogo").hide();
+      $("#rubylogo").hide();
       $(".pursue").text("Java");
+      $("#javalogo").show();
     } else if ((php > ruby) && (php > jav)){
+      $("#rubylogo").hide();
+      $("#javalogo").hide();
       $(".pursue").text("pHp");
+      $("#phplogo").show();
     } else if ((ruby === jav)){
       $(".pursue").text("Ruby & Java. Your results were tied");
+      $("#rubylogo").hide();
+      $("#javalogo").hide();
+      $("#phplogo").hide();
     } else if ((ruby === php)){
       $(".pursue").text("Ruby & pHp. Your results were tied");
+      $("#rubylogo").hide();
+      $("#javalogo").hide();
+      $("#phplogo").hide();
     } else if ((jav === php)){
       $(".pursue").text("Java & pHp. Your results were tied");
+      $("#rubylogo").hide();
+      $("#javalogo").hide();
+      $("#phplogo").hide();
     } else {
       $("#output").text("Your results were inconclusive. We can't help you. Sorry!");
     }

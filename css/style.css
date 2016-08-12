@@ -11,7 +11,10 @@ body{
   background-color: #fff;
   opacity: .94;
 }
-#output {
+.row {
+  padding: 1rem;
+}
+#output, #phplogo, #javalogo, #rubylogo{
   display:none;
 }
 .btn-success {
@@ -38,7 +41,7 @@ button{
 }
 /*Radio buttons font size and colors*/
 label {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 label.blue{
   color:#1f49c7;
